@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapoTuner - Music plethora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">CapoTuner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li> 
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="metronome.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sheets.html">Sheet music</a></li>
+                            <li><a class="dropdown-item" href="tabs.html">Tabs</a></li>
+                            <li><a class="dropdown-item" href="metronome.html">Metronome</a></li>
+                            <li><a class="dropdown-item" href="tuner.html">Tuner</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="musicfaqs.html">Music FAQs</a>
+                     
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                </form>
+                <div class="text-end">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- metronome -->
+    <div class="container justify-content-center py-4 ">
+        <div class="container"><h2><u>Metronome</u></h2></div>
+    <script src="metro.js"></script>
+</div>
+
+    <!-- simple  footer -->
+    <div class="d-flex flex-column flex-sm-row justify-content-center" style="
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+    ">
+        <p style="color: black; font-size: 12px;">© 2023 CapoTuner, Inc. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

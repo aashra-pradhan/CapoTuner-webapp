@@ -1,0 +1,183 @@
+<!doctype html>
+<!-- this doctype wala line SHOULD be there for using bootstrap -->
+<html lang="en">
+
+<!-- bootstrap automatically makes responsive website, you don't need to do extra effort -->
+
+<!-- bootstrap ma mainly timle bujhnuparne ko kata k code use gariyeko cha, kasari,,,
+    ani class names ali thaha hunuparyo, euta html element ma we can include more than one class, 
+    element ma
+    j j class rakhyo, tyo classes ko sabai properties aaucha hamro element ma, aba yo classes ko kura 
+    haru bootstap documentation ma herna sakchau -->
+    <!-- example:
+    <button type="button" class="btn btn-warning">Warning</button>
+esma btn is one class, btn-warning is another class, so jati ota ni class include garna milyo based on what what 
+properties we require, every class name is written by spacing between them.
+btn-lg class use garyo bhane large button dekhincha, btn-sm use garyo bhane small button dekhincha,
+so yo bootstrap code herera analyze pani garna sika,
+because you should be accountable for what you've included in your code. bootstrap classes ratne haina,
+documentation ma kasari use bhayecha kun keyword le, tyo kura bujhna khojne ho-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- for responsive web page -->
+    <title>Bootstrap demo</title>
+    <!-- cdn link for css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- navbar component of bootstrap -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">CapoTuner</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <!-- hamro yo Home chai active link ani aru tabs chai inactive tatkal, 
+                dropdown ko ni code diyecha, so j j usle diyecha, teslai pachi chahiye afaile
+                    add haru garera use garne ho, nachahine hataune ho -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Guitar tuners</a></li>
+                        <li><a class="dropdown-item" href="#">Guitar capos</a></li>
+                        <li><a class="dropdown-item" href="#">Guitar strings</a></li>
+                        <li><a class="dropdown-item" href="#">Guitar pegs</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Violin strings</a></li>
+                        <li><a class="dropdown-item" href="#">Violin shoulder rest</a></li>
+                        <li><a class="dropdown-item" href="#">Violin bow</a></li>
+                        <li><a class="dropdown-item" href="#">Violin chin rest</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+                </li> -->
+                <!-- yo disabled ahile nachahiyeko le comment out gareko -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Music FAQs</a>
+                    <!-- faqs ma accordion use garna milcha -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Dismissible alerts -->
+<!-- success-green, warning-yellow, danger-red, primary-blue,,,,these are the most used colors
+, always can check these under colors in bootstrap website -->
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    <em>Your form has been filled successfully!</em>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<!-- carousel -->
+<div id="carouselExample" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active"> 
+         <!--active means which is shown currently  -->
+        <img src="http://source.unsplash.com/1400x400/?guitar" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="http://source.unsplash.com/1400x400/?violin" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="http://source.unsplash.com/1400x400/?music" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- breadcrumbs -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <!-- # ko satta afaile link rakhdine ho -->
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data
+            <span class="badge bg-secondary">New</span>
+        </li>
+    </ol>
+</nav>
+
+<!-- buttons, block buttons can be used for submit haru,  -->
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<br>
+<br>
+<br>
+
+<button type="button" class="btn btn-outline-primary btn-sm">Primary</button>
+<button type="button" class="btn btn-outline-secondary btn-lg">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+<br>
+<br>
+<!-- Cards -->
+<!-- i inserted picture in card using unsplash api, http://source.unsplash.com/1600x900/?nature,water
+    ,copy paste this link in in img src of card, ani change keyword as you need, keep how much keywords you want, 
+     change the size of img as you need,
+    and keep refreshing the webpage, till you get your required pic, then save the pic ani tei downloaded pic ko link
+    le replace
+    gara img src ma -->
+ <div class="card" style="width: 18rem;">
+    <img src="g1.jpg" class="card-img-top" alt="guitar capo">
+    <div class="card-body">
+      <h5 class="card-title" style=" color:chocolate; font-weight: bolder; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Pick up your PICKS</h5>
+      <!-- esari you can always customize your font or any other details using style tag(inline css), can
+    use google fonts as well link copy garera -->
+      <p class="card-text">Get your guitar picks at the most reasonable prices only at CapoTuner!</p>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+<!-- cdn link for js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

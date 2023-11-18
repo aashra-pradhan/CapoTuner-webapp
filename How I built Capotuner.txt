@@ -1,0 +1,40 @@
+ <!-- What what we did in chronology while building the webite: -->
+
+0. Have a basic picture, website ma k k rakhne, kasto layout, kun color theme.
+1. Starter's template(Copy paste the code of starter template to start coding from bootstrap, OR ! enter gara html ko starter format
+aaihalcha ani cdn links hala).
+2. Got the navbar from bootstrap, cusomized titles, dropdowns.
+3. Changed its color. Have basic knowledge for colors(success-green, primary-blue, warning-yellow, dark-black,
+ danger-red), Similarly, also have basic knowledge of bootstrap classes, know atleast what they mean, so that 
+ copy paste garda, you understand what you're copying, you can explain your project code when asked line by line
+ and even customizing the website becomes way convenient if you know what the used bootstrap classes are 
+ responsible for doing.
+
+4. Can keep logo beside name(check bootstarp to advance your features). Every title ko href ma html page rakhe, tara active topic ma / matra rakha href ma(eg. home)    
+5. euta component ko kam sakkesi minimize it for convinience.
+6. then carousels.
+7. unsplash api for picx, size it(widthxheight in unsplash), place keywords.
+8. carousel-fade, titles for carousel, brief text, can always use your own css to change font family, color, opacity and evth.
+9. Ctrl + tab for switching betn tabs, alt+ tab for switching windows.
+10. div.box.btn*10   div#i1*5    These are shortcuts for getting tags with classes and ids without typing everytime
+11. Examples ma jau in bootstrap and explore what you want(you can also check for headings, paras, cards, etc.) and inspect, hover over the minimized part to check website ko kun portion ko code ko, expand , edit as html gara ani copy code accordingly. 
+Yo ma matra haina go to real time websites ani inspect ma gayera you can copy anything, header, footer, anything.
+12. replace svg with your own img tags, can use your own html tags and own css properties., kei kura lai eutai container ma halera use garna sajilo to align, bring in one line,
+ div.container gardeu and since this is the parent , parent ma display:flex garyo bhane sabai child eutai line ma aaucha, this is pro tip by jugal
+ 13. ali flex box ko idea huna ni jaroori cha for customizing layout, especially d-flex(display flex), align-items-center, justify-content-center, these classes are used the most.
+ 14. euta default row 12 cols milera baneko huncha, this knowledge helps in formatting
+ 15. Aba afulai chahiyeko elements haldai jau, diff html pages banau for diff navbar headings, don't forget footer with social links and stuff, contact us form.
+Keep on checking for responsivity every now and then, and kei element responsive bhayena suppose img then bootstrap ma gayera search, kun class add garyo bhane responsive hola, natra media query lagaunuparcha.
+16. suppose products page banairachau bhane don't forget to keep the same nav bar and footer in this page also,
+but dont forget to keep products as active link now, instead of home. Make login sign up modals if your page requires.
+
+//duita diff chij ko id same hunu hunna, copy paste garda be careful, cause id is used by javascript
+//mx-5 my-5 class is margin across x axis y axis
+//md means medium screen device, sm is small, lg is large.
+//mb is margin bottom
+// home page ko link ma / matra halne (for index.html)
+
+ 17.Hoisting of website (can host thru github)
+ 18.SEO of website(google ma search garda aauna lai)
+ 19. Try making the website better, afno css use garechau bhane remember that it is NOT responsive, 
+ bootstrap matra automatically responsive ho Review your website(QA) for any faults, responsive faults, solve if found any.

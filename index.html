@@ -1,0 +1,186 @@
+<!-- Starter template -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CapoTuner - Music plethora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">CapoTuner</a>
+          <!-- note B sab ko href ma /CapoTuner-webapp/musicfaqs.html esari lekhnuparyo
+          cause now we're hosting thru github, so esari milau each and every page ma,
+        natra host garda error aaucha euta page bata arko ma switch huda, tara afnai pc bata chalauna yo href rakhera chaldaina hai, index ma just / rakhne aru ma simply file names cause evth is in the same folder, so -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Resources
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="sheets.html">Sheet music</a></li>
+                    <li><a class="dropdown-item" href="tabs.html">Tabs</a></li>
+                    <li><a class="dropdown-item" href="metronome.html">Metronome</a></li>
+                    <li><a class="dropdown-item" href="tuner.html">Tuner</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="musicfaqs.html">Music FAQs</a>
+                <!-- faqs ma accordion use garna milcha -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="community.html">Community</a>
+            </li>
+        </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
+            <div class="text-end">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn"></button>
+                <!-- yo button maile space garna rakheko but dunno what to do -->
+                <button type="button" class="btn btn-warning ">Login</button>
+                <button type="button" class="btn btn-warning">Sign up</button>
+              </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="music1.jpg" class="d-block w-100" alt="First picture of music">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>CapoTuner</h2>
+            <p>One stop site for your musical thirst</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="music3.jpg" class="d-block w-100" alt="Second picture of music">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>Music Relived</h2>
+            <p>One stop site for your musical thirst</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="music4.jpg" class="d-block w-100" alt="Third picture of music">
+        <div class="carousel-caption d-none d-md-block">
+            <h2>Resources, Accessories, Community</h2>
+            <p>One stop site for your musical thirst</p>
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <br>
+    <!-- about us in home page -->
+    <div class="container ">
+    <div class="row featurette d-flex">
+        <div class="col-md-12">
+          <h2 class="featurette-heading fw-normal lh-1" style=" font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bolder;">About Us </h2>
+          <div class="container" style="margin-top: 15px; padding-left: 0px;">
+            <!-- maile afai yo paragraph ko argintop padding left milako, container ma halera, this is how we customize -->
+          <p class="lead" align="justify">Welcome to CapoTuner!
+
+            At CapoTuner, we are passionate about music and committed to providing a comprehensive platform for all musicians, whether you're a beginner or a seasoned professional. Our mission is to be your one-stop destination for all your musical needs, offering a wide range of resources and tools to enhance your musical journey.
+            
+            Explore our extensive collection of sheet music and tabs covering various genres and instruments. Whether you're looking to learn a new song or hone your skills, our vast library has something for everyone. We believe that music should be accessible to all, and that's why we offer these resources for free to our community of music enthusiasts.
+            
+            Need to fine-tune your instrument? Our integrated metronome and tuner are here to assist you in achieving perfect pitch and rhythm. Whether you're practicing solo or playing with a band, these tools will help you stay in sync and sound your best.
+            
+            For those looking to expand their musical knowledge, we provide a wealth of information on scales, notes, and other music-related topics. 
+           </p>
+           <p class="lead" align="justify">
+            Our FAQs section is a valuable resource for answering common questions and guiding you through your musical journey.
+            
+            At CapoTuner, we understand that the right accessories can elevate your musical experience. Browse through our handpicked selection of high-quality musical instrument accessories to enhance your performance and keep your instruments in top-notch condition.
+            
+            We take pride in fostering a vibrant and supportive music community. Our dedicated forum allows musicians from all walks of life to connect, share their thoughts, seek advice, and discuss anything related to music. Whether you have questions about technique, music theory, or want to share your latest musical accomplishment, our community is here to listen and support you.
+            
+            So, whether you're a budding musician or an experienced player, CapoTuner is here to accompany you on your musical journey. Explore, learn, share, and connect with fellow music enthusiasts as we harmonize together in the universal language of music.
+            
+            Join us today and let's create beautiful melodies together!
+            
+            
+            
+            
+            </p>
+        </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+    <!-- contact us form -->
+    <div class="container" style="border: 1px solid black; background-color: rgba(150, 76, 24,0.8); padding-top: 35px; padding-bottom: 35px;">
+    <div class="container d-flex justify-content-center">
+    <h2 class="featurette-heading fw-normal lh-1" style=" font-size: 40px; font-family: 'Courier New', Courier, monospace; font-weight: bolder;">Contact Us</h2>
+    </div>
+    <br>
+    <div class="container d-flex align-items-center justify-content-center" >
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+          </div>
+          
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"><p style="font-size: 10px;">We'll never share your email with anyone else.</p></div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputfeed1" class="form-label">Feedback/Suggestions</label>
+            <input type="text" class="form-control" id="exampleInputfeed1" aria-describedby="emailHelp">
+          </div>
+
+        <div class="mb-3 form-check" >
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"><p style="font-size: 14px;">Allow notifications</p></label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+</div>
+
+    <!-- simple  footer -->
+    <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+      <p style="color: black; font-size: 12px;">© 2023 CapoTuner, Inc. All rights reserved.</p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
