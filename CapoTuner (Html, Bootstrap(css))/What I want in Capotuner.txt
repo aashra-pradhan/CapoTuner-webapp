@@ -1,0 +1,59 @@
+# What i want in Capotuner :
+
+1. Note Scales Tool:
+   - Provide an interactive tool where musicians can select a musical key and see the corresponding notes and scales displayed.
+   -  the usage of the Circle of Fifths knowledge an other things aenish pdf like major minor, ionian, harnomic, platonic, violin crescendo, diminindo
+      and all.
+   - Offer options for different instruments, such as guitar, piano, saxophone, etc., as each instrument may have unique scale patterns.
+
+2. Music Theory Resources:
+   - Offer articles, tutorials, and guides on music theory topics like scales, chords, intervals, and harmony.
+   - Provide educational content for beginners to advanced musicians.
+
+3. Sheet Music and Tabs:
+   - Allow musicians to access and download sheet music and tabs for various instruments and genres.
+   - Offer a searchable database with sorting options for ease of finding specific pieces.
+
+4. Online Store:
+   - Set up an e-commerce platform where musicians can purchase musical instruments, accessories, and other relevant products.
+   - Partner with reputable music equipment vendors to offer a wide selection of items.
+
+5. Community Forum:
+   - Create a space for musicians to interact, share ideas, ask questions, and offer advice to one another.
+   - Implement user profiles and messaging features to encourage engagement.
+
+6. Music News and Events:
+   - Keep musicians informed about the latest music news, industry updates, and upcoming events like concerts, workshops, and masterclasses.
+
+7. Artist Profiles and Interviews:
+   - Highlight musicians and bands through dedicated profiles and interviews.
+   - Feature their music, achievements, and upcoming projects.
+
+8. Music Reviews and Recommendations:
+   - Offer reviews and recommendations of albums, songs, and music gear to help musicians make informed decisions.
+
+9. Music Production Tips and Tools:
+   - Provide resources for music production, recording, and mixing techniques.
+   - Recommend software, plugins, and hardware for music production.
+
+10. Interactive Tools:
+    - Include metronomes, tuners, and other useful tools that musicians can use while practicing.
+    -Also a tool to keep track of progress, where the user stopped and all, music quiz.
+
+11. Newsletter Subscription:
+    - Allow users to subscribe to a newsletter to receive updates, exclusive content, and promotions.
+
+12. Mobile-Friendly Design:
+    - Ensure that the website is responsive and optimized for various devices, including smartphones and tablets.
+
+13. Social Media Integration:
+    - Include links to your social media profiles and allow users to share content from your website on their platforms.
+
+14. Contact and Support:
+    - Provide a clear and accessible contact page for inquiries and support.
+
+Remember to regularly update and expand your website with fresh content to keep musicians engaged and coming 
+back for more. User feedback and analytics can be invaluable in understanding what your audience finds most 
+valuable and helps you continuously improve the website.
+
+
